@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Sheet3.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Sheet3.SchDoc|Designator=U_BSPD_V1.1|SchDesignator=U_BSPD_V1.1|FileName=BSPD_V1.1.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=BSPD_V1.1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet3.SchDoc|Designator=U_Sheet2|SchDesignator=U_Sheet2|FileName=Sheet2.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Sheet2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

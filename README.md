@@ -1,2 +1,3 @@
-# KS2E-BSPD
-Braking system plausibility device for the Kennesaw Motorsports FSAE team's e-car, the KS2E
+# KS2E
+Collection of my projects for Kennesaw Motorsports FSAE's second electric car, the KS2E.
+

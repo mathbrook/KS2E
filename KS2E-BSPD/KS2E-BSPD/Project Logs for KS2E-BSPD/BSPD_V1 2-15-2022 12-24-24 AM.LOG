@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=APPS2 Pin=R33-1
+Added Pin To Net: NetName=APPS1 Pin=R34-1
+Added Pin To Net: NetName=BRAKE Pin=R35-1
+Added Pin To Net: NetName=HALL Pin=R36-1

@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=KS2E_PRECHARGE.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=KS2E_PRECHARGE.SchDoc|Designator=U_KS2E_PCHG_HVSIDE|SchDesignator=U_KS2E_PCHG_HVSIDE|FileName=KS2E_PCHG_HVSIDE.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=KS2E_PCHG_HVSIDE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=KS2E_PRECHARGE.SchDoc|Designator=U_KS2E_PCHG_LVSIDE|SchDesignator=U_KS2E_PCHG_LVSIDE|FileName=KS2E_PCHG_LVSIDE.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=KS2E_PCHG_LVSIDE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

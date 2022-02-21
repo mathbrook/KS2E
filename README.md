@@ -6,5 +6,6 @@ Safety circuit designed to interrupt the tractive system in case of torque contr
 
 ## Shutdown Circuit
 Circuit which carries current to the AIRs(Accumulator Isolation Relays) which must be closed for the tractive system to operate
+
 <img src="/SHUTDOWNCIRCUITKS2E.drawio (3).png" width="600">
 

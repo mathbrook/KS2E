@@ -14,7 +14,7 @@ Circuit which carries current to the AIRs(Accumulator Isolation Relays) which mu
 <img src="/KS2E-IMD-AMS-Latch/Imd-Ams-Latch.png" width="600">
 Independent latching circuits for the IMD and AMS on one PCB
 
-## [Fan Controller](Val's-Fan-Controller)
+## [Fan Controller](Val's%20Fan%20Controller)
 Teensy-powered PWM fan speed controller for the Ks2e's accumulator.
 
 <img src="/Val's Fan Controller/ValFC.png" width="600">

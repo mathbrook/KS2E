@@ -25,7 +25,7 @@ Smart precharge circuit utilizing voltage to frequency converters and a teensy t
 
 <img src="/KS2E-Precharge/Precharge.png" width = 600>
 
-## [Temperature Monitoring Board](KS2E-Accumulator-Temp-Board)
+## [Temperature Monitoring Board](KS2E-Accumulator%20Temp%20Board)
 
 Work in progress, teensy interfacing with several LTC2499 ADCs over i2c and transmitting that data to an Orion BMS 2 over canbus in order to emulate the Orion Thermistor module.
 

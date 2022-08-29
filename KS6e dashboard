@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T04:12:51.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.2" etag="qft7OnUvBP08UE6Tc9KZ" type="github"><diagram id="PGub_lAK1g6yS7mZO09a">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-29T04:30:24.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="r_ZtDMArmfMY1Dv23dYA" version="20.2.2" type="github">
+  <diagram id="PGub_lAK1g6yS7mZO09a" name="Page-1">
+    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZRSMa6H-v4CFu1j2l8vA-1" value="IMD Light" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRSMa6H-v4CFu1j2l8vA-3" value="AMS Light" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRSMa6H-v4CFu1j2l8vA-4" value="Seven-Segment&lt;br&gt;(4 Characters)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRSMa6H-v4CFu1j2l8vA-6" value="RtD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

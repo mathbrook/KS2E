@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T17:24:46.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hLltYBtrWSSs5os1Hu2v" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T16:09:13.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-c2QO57OiPiGtJTwlOTX" version="20.2.8" type="github">
   <diagram id="bKRa3nFn5MBjFVA7oBet" name="Page-1">
-    <mxGraphModel dx="677" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,17 @@
         <mxCell id="CTESXtO_UZ-wh_MA3voM-2" value="Initialize GPIOs, CAN, variables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CTESXtO_UZ-wh_MA3voM-4" value="Initialize GPIOs, CAN, variables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-4" target="CTESXtO_UZ-wh_MA3voM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-4" value="Initiate The Superloop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-6" target="CTESXtO_UZ-wh_MA3voM-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="205" />
-              <mxPoint x="590" y="365" />
+              <mxPoint x="1059.94" y="265" />
+              <mxPoint x="1059.94" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -33,13 +36,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-6" value="Off" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="160" width="90" height="90" as="geometry" />
+          <mxGeometry x="909.94" y="220" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-7" target="CTESXtO_UZ-wh_MA3voM-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="365" />
-              <mxPoint x="380" y="220" />
+              <mxPoint x="849.94" y="425" />
+              <mxPoint x="849.94" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,23 +52,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-7" value="On" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="90" height="90" as="geometry" />
+          <mxGeometry x="909.94" y="380" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-10" value="IMD SDC Relay State Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="90" width="110" height="30" as="geometry" />
+          <mxGeometry x="899.94" y="150" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-11" value="Vars: IMD OK, Reset Line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="130" width="90" height="30" as="geometry" />
+          <mxGeometry x="909.94" y="190" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-12" value="&quot;IO, RL&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="1009.94" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-6" target="CTESXtO_UZ-wh_MA3voM-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="453" y="160" />
-              <mxPoint x="410" y="160" />
-              <mxPoint x="410" y="205" />
+              <mxPoint x="922.94" y="220" />
+              <mxPoint x="879.94" y="220" />
+              <mxPoint x="879.94" y="265" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -77,8 +80,8 @@
         <mxCell id="CTESXtO_UZ-wh_MA3voM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-19" target="CTESXtO_UZ-wh_MA3voM-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="820" y="205" />
-              <mxPoint x="820" y="365" />
+              <mxPoint x="1289.94" y="265" />
+              <mxPoint x="1289.94" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -88,13 +91,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-19" value="Off" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="670" y="160" width="90" height="90" as="geometry" />
+          <mxGeometry x="1139.94" y="220" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-22" target="CTESXtO_UZ-wh_MA3voM-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="365" />
-              <mxPoint x="610" y="220" />
+              <mxPoint x="1079.94" y="425" />
+              <mxPoint x="1079.94" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -104,23 +107,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-22" value="On" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="670" y="320" width="90" height="90" as="geometry" />
+          <mxGeometry x="1139.94" y="380" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-23" value="AMS SDC Relay State Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="90" width="110" height="30" as="geometry" />
+          <mxGeometry x="1129.94" y="150" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-24" value="Vars: AMS OK, Reset Line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="130" width="90" height="30" as="geometry" />
+          <mxGeometry x="1139.94" y="190" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-25" value="&quot;AO, RL&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="1239.94" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTESXtO_UZ-wh_MA3voM-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-19" target="CTESXtO_UZ-wh_MA3voM-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="683" y="160" />
-              <mxPoint x="640" y="160" />
-              <mxPoint x="640" y="205" />
+              <mxPoint x="1152.94" y="220" />
+              <mxPoint x="1109.94" y="220" />
+              <mxPoint x="1109.94" y="265" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,9 +135,9 @@
         <mxCell id="CTESXtO_UZ-wh_MA3voM-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-7" target="CTESXtO_UZ-wh_MA3voM-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="397" />
-              <mxPoint x="530" y="440" />
-              <mxPoint x="485" y="440" />
+              <mxPoint x="999.94" y="457" />
+              <mxPoint x="999.94" y="500" />
+              <mxPoint x="954.94" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -146,9 +149,9 @@
         <mxCell id="CTESXtO_UZ-wh_MA3voM-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-22" target="CTESXtO_UZ-wh_MA3voM-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="760" y="397" />
-              <mxPoint x="760" y="430" />
-              <mxPoint x="715" y="430" />
+              <mxPoint x="1229.94" y="457" />
+              <mxPoint x="1229.94" y="490" />
+              <mxPoint x="1184.94" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -156,6 +159,99 @@
           <mxGeometry x="0.0696" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-35" target="CTESXtO_UZ-wh_MA3voM-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180.1428571428571" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-39" value="Not&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CTESXtO_UZ-wh_MA3voM-37">
+          <mxGeometry x="0.2471" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-35" target="CTESXtO_UZ-wh_MA3voM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-47" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CTESXtO_UZ-wh_MA3voM-41">
+          <mxGeometry x="-0.4769" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-35" value="Check for available temp board data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-38" target="CTESXtO_UZ-wh_MA3voM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-38" value="Update min/max/average accumulator temperatures" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-40" target="CTESXtO_UZ-wh_MA3voM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-40" value="Parse temp data from can packet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-42" target="CTESXtO_UZ-wh_MA3voM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-42" value="Update data in struct" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-54" value="They is" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CTESXtO_UZ-wh_MA3voM-48">
+          <mxGeometry x="-0.2235" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-52" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-45" target="CTESXtO_UZ-wh_MA3voM-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-53" value="They aint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CTESXtO_UZ-wh_MA3voM-52">
+          <mxGeometry x="-0.1376" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-45" value="Check if temps are above arbitrary threshold to enable fans or speed them up or slow them down or whatever" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-49" target="CTESXtO_UZ-wh_MA3voM-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="679.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="550" />
+              <mxPoint x="420" y="650" />
+              <mxPoint x="210" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-49" value="Update fan PWM duty cycle accordingly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-51" target="CTESXtO_UZ-wh_MA3voM-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="698" />
+              <mxPoint x="250" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-51" value="Get and update analog readings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTESXtO_UZ-wh_MA3voM-55" target="CTESXtO_UZ-wh_MA3voM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-55" value="SDC current" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CTESXtO_UZ-wh_MA3voM-56" value="Fan current" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="660" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

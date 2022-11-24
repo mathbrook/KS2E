@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T02:26:51.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="l3h2QIG8yXHSksXXKvbF" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T03:00:50.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xQrlshm0CQpX2xmwP9Rx" version="20.5.3" type="github">
   <diagram id="8Zb1OhAZnFOWGW9kvHwT" name="Page-1">
-    <mxGraphModel dx="1354" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1138" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,9 +138,6 @@
         <mxCell id="lI1xhpc5zYNx20Yh99GI-12" value="Overtemp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="220" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lI1xhpc5zYNx20Yh99GI-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="20" width="750" height="510" as="geometry" />
-        </mxCell>
         <mxCell id="lI1xhpc5zYNx20Yh99GI-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" target="lI1xhpc5zYNx20Yh99GI-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="140" as="sourcePoint" />
@@ -178,6 +175,17 @@
         </mxCell>
         <mxCell id="lI1xhpc5zYNx20Yh99GI-35" value="GLV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="90" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lI1xhpc5zYNx20Yh99GI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="lI1xhpc5zYNx20Yh99GI-38" target="lI1xhpc5zYNx20Yh99GI-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="80" />
+              <mxPoint x="570" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lI1xhpc5zYNx20Yh99GI-38" value="Buttons" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="720" y="110" width="70" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
